@@ -1,0 +1,60 @@
+app-home {
+  .app-home {
+    padding: 10px;
+  }
+
+  header {
+    padding: 5px;
+    text-align: center;
+    h1 {
+      font-size: 25px;
+    }
+  }
+
+  .urls-box {
+    textarea {
+      height: 400px;
+    }
+  }
+
+  .start-box {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .img-box {
+    text-align: center;
+    height: 300px;
+    overflow: scroll;
+    img {
+      max-width: 80%;
+      height: 100%;
+    }
+  }
+
+  .progress-box {
+    margin-top: 10px;
+    .progress {
+      margin-bottom: 0px;
+    }
+    .msg-box {
+      display: flex;
+      .msg {
+        flex-grow: 2;
+      }
+    }
+  }
+
+  .download-box {
+    margin-top: 10px;
+    text-align: center;
+    a {
+      display: none;
+    }
+  }
+
+  .back-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
